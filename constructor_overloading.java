@@ -40,7 +40,9 @@ public class constructor_overloading
 {
 	public static void main(String[] args)
 	{
+		Box Box5;
 		Box Box1= new Box(1,2,3);
+		Box5 = Box1;
 		Box Box2= new Box(3,4,6);
 		Box Box3= new Box();
 		Box Box4= new Box(2,3);
@@ -49,9 +51,6 @@ public class constructor_overloading
 		Box2.displayDetails();
 		Box3.displayDetails();
 		Box4.displayDetails();
-
-
-
-
+		Box5.displayDetails();
 	}
 }
