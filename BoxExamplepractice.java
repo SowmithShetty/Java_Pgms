@@ -34,6 +34,7 @@ public class BoxExamplepractice
 	{
 		Box Box1= new Box();
 		Box Box2= new Box();
+		Box Box3= new Box();
 
 		Box1.input();
 		Box2.input();
@@ -41,10 +42,12 @@ public class BoxExamplepractice
 		Box1.displayDetails();
 		System.out.println("Box 2");
 		Box2.displayDetails();
-
+		System.out.println("Box 3");
+		Box3.displayDetails();
 	}
 }
 		
 
 		
 		
+
