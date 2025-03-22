@@ -1,17 +1,6 @@
 class BoxObjectParameter
 {
 	double l,w,h;
-	BoxObjectParameter(double w,double h)
-	{
-		this.w=w;
-		this.h=h;
-	}
-	BoxObjectParameter()
-	{
-		this.l=1;
-		this.w=1;
-		this.h=1;
-	}
 	
 	BoxObjectParameter(double l,double w,double h)
 	{
